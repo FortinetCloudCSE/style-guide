@@ -2,6 +2,7 @@
 public/
 docs/
 node_modules/
+.jeremy/
 docker-compose.yml
 package-lock.json
 package.json

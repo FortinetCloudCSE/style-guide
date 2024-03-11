@@ -1,7 +1,7 @@
 # this is a required setting for this theme to appear on https://themes.gohugo.io/
 # change this to a value appropriate for you; if your site is served from a subdirectory
 # set it like "https://example.com/mysite/"
-baseURL = "https://fortinetcloudcse.github.io/UserRepo/"
+baseURL = "https://fortinetcloudcse.github.io/style-guide/"
 googleAnalytics = "G-5RZBH288ST"
 
 languageCode = "en-US"
@@ -28,7 +28,7 @@ uglyURLs = true     # true -> basic/index.html -> basic.html
 # use this theme ;-)
 theme = ["hugo-theme-relearn"]
 
-title = "Hugo for Fortinet TECWorkshops"
+title = "Style Guide for CSE's"
 
 # We disable this for testing the exampleSite; you must do so too
 # if you want to use the themes parameter disableGeneratorVersion=true;
@@ -76,18 +76,18 @@ enableEmoji = true
 
 
 [params]
-  landingPageUrl = "UserRepo"
+  landingPageUrl = "style-guide"
   # Change default color scheme with a variant
   # Fortinet specific variants are: "Workshop", "UseCase", "Demo", "Spotlight", "FortinetSilver", "FortinetTeal".  These change the top left logo background & add Text under the Logo
   # For added variants, please contact fortinetcloudcse@fortinet.com
-  themeVariant = "Workshop"
+  themeVariant = "Style Guide"
 
   #Optional, By Default, the logo banner will match the Text from themeVariant Above
   # If you would like to change the primary logo banner text, uncommenet logoBannerText Parameter and set to desired text.
   #logoBannerText="Custom Logo Banner"
 
   # Optional: If you'd like additional logo sub text/descriptions, use logoBannerSubText Parameter.  leave empty string to omit: ""
-  logoBannerSubText="sample sub-banner text"
+  logoBannerSubText=""
 
 
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page. 
@@ -95,9 +95,9 @@ enableEmoji = true
   # See the config.toml file from this documentation site to have an example.
   #editURL = ""
   # Author of the site, will be used in meta information
-  author = "Jeff Kopko"
+  author = "Cloud CSE Group"
   # Description of the site, will be used in meta information
-  description = "Hugo for Fortinet TEC Workshops"
+  description = "Style Guide for all technical training content for CSE"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = true
   # Disable search function. It will hide search bar
@@ -160,7 +160,7 @@ enableEmoji = true
   externalLinkTarget = "_blank"
 
 [[menu.shortcuts]] 
-name = "<i class='fas fa-graduation-cap'></i> Fortinet Cloud CSE GitHub Org"
+name = "<i class='fas fa-graduation-cap'></i> Fortinet Cloud CSE GitHub"
 url = "https://github.com/FortinetCloudCSE"
 weight = 1
 

@@ -95,7 +95,7 @@ enableEmoji = true
   # See the config.toml file from this documentation site to have an example.
   #editURL = ""
   # Author of the site, will be used in meta information
-  author = "Cloud CSE Group"
+  author = "Cloud CSE https://github.com/FortinetCloudCSE"
   # Description of the site, will be used in meta information
   description = "Style Guide for all technical training content for CSE"
   # Shows a checkmark for visited pages on the menu

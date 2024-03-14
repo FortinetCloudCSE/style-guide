@@ -18,5 +18,3 @@ This site will explain how to create new content that fits the existing theme, a
 ### Hugo and Fortinet TECWorkshops - Visually
 - The purpose of this workflow is to simplify creation of Fortinet TECWorkshop guides while providing an example CI/CD development environment with maximum re-usability 
 - Here's a visual representation of our process which will be fully explained in each chapter
-
-{{< FTNThugoFlow >}}

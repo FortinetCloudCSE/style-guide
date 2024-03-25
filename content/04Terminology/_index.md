@@ -1,8 +1,8 @@
 ---
-title: "Ch 4 - Visual Aids and Multimedia"
+title: "Ch 4 - Technical Terminology and Definitions"
 chapter: false
-menuTitle: "Ch 4: Visuals and Multimedia"
-weight: 40
+menuTitle: "Ch 4: Technical Terminology"
+weight: 50
 ---
 
 ### ***Publish your content to GitHub pages via a GitHub action***

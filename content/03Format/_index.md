@@ -1,12 +1,10 @@
 ---
-title: "Ch 3 - Format and Structure"
+title: "Format and Structure"
 chapter: false
-menuTitle: "Ch 3: Format and Structure"
+menuTitle: "III: Format and Structure"
 weight: 30
 ---
 
-### ***Publish your content to GitHub pages via a GitHub action***
+### Purpose
 
-Now that you have your content first draft, push your repo to github, there's already a GitHub action to automatically publish your content anytime you upload to the repo
-
-Click the right arrow to go through each step individually
+This section covers the code and content for formatting your pages, organizing your data, and using markdown to convey your options to users clearly.

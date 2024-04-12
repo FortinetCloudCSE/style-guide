@@ -1,7 +1,7 @@
 ---
-title: "Ch 2 - Grammar Language and Tone "
+title: "Grammar Voice and Tone "
 chapter: false
-menuTitle: "Ch 2: Grammar, Language, Tone"
+menuTitle: "II: Grammar, Voice, Tone"
 weight: 20
 ---
 

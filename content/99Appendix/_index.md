@@ -2,7 +2,7 @@
 title: "Appendix A - Reusable Content"
 chapter: false
 menuTitle: "App. A: Reusable Content"
-weight: 990
+weight: 900
 ---
 
 ### ***Publish your content to GitHub pages via a GitHub action***

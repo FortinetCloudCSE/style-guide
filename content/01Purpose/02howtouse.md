@@ -9,7 +9,9 @@ weight: 25
 
 This is meant to be a reference guide, which can be used as for guidance when formatting your own content. This is not meant to be read through like a novel, but rather is intended to provide quick references to voice, tone, grammar, and accessibility questions. This document will provide technical guidance as appropriate to properly present your information in the Fortinet Hugo theme.
 
-#### The rest of this guide:
+Each section outlines specific topics and provides examples in depth for your use. The top level links on the right side provide a _tl;dr_ style summary for the pages encompassed in that chapter.
+
+#### Quicklinks for the rest of this guide:
 
 - [Grammar, Voice, and Tone]({{< relref "02grammar" >}})
   - Document Structure

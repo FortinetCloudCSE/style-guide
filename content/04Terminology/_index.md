@@ -1,7 +1,7 @@
 ---
-title: "Ch 4 - Technical Terminology and Definitions"
+title: "Technical Terminology and Definitions"
 chapter: false
-menuTitle: "Ch 4: Technical Terminology"
+menuTitle: "IV: Technical Terminology"
 weight: 50
 ---
 

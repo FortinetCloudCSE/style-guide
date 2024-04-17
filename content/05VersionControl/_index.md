@@ -1,7 +1,7 @@
 ---
-title: "Ch 5 - Version Control "
+title: "Version Control"
 chapter: false
-menuTitle: "Ch 5: Version Control"
+menuTitle: "V: Version Control"
 weight: 60
 ---
 

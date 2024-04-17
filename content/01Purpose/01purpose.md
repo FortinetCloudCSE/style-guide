@@ -5,6 +5,8 @@ menuTitle: "Purpose"
 weight: 15
 ---
 
+## Purpose
+
 ## What is this?
 
 This guide is meant to provide guidance and clarity for authors developing materials for internal and external audiences. The overall purpose is to assist with:
@@ -13,8 +15,8 @@ This guide is meant to provide guidance and clarity for authors developing mater
 - Clarity and Precision
 - Enhancing Readability
 - Ensuring Accessibility
-- Facilitate Collaboration
-- Integrate with Brand Voice and Tone Across Fortinet Communications
+- Facilitating Collaboration
+- Integrating with Brand Voice and Tone Across Fortinet Communications
 
 The purpose of this style guide is multifaceted, encompassing a range of objectives aimed at enhancing the quality, accessibility, and readability of technical documentation. By laying down the principles, standards, and best practices for writing and presenting technical information, this guide seeks to empower writers, editors, and contributors to craft content that not only informs but also engages and inspires its audience. 
 

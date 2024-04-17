@@ -52,7 +52,7 @@ In markdown, you can generate this type of header like this:
 
     ### Action Items (Header 3)
 
-H3 is meant to use to divide instruction from doing. This could be a summary of the section, a set of review questions to explore and test knowledge, or lab instructions for extra credit or exploring on their own. This should be used within the section to designate 'hands on' activities.
+H3 is meant to be used to divide instruction from doing. This could be a summary of the section, a set of review questions to explore and test knowledge, or lab instructions for extra credit or exploring on their own. This should be used within the section to designate 'hands on' activities.
 
 ---
 

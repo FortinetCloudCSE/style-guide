@@ -7,7 +7,7 @@ weight: 25
 
 # How to Use
 
-This is meant to be a reference guide, which can be used as for guidance when formatting your own content. This is not meant to be read through like a novel, but rather is intended to provide quick references to voice, tone, grammar, and accessibility questions. This document will provide technical guidance as appropriate to properly present your information in the Fortinet Hugo theme.
+This is a reference guide, to be used as guidance when developing your own content. This is not meant to be read through sequentially, but rather is intended to provide quick references to voice, tone, grammar, format, technical, and accessibility questions. This document offers way to appropriately present your information in the Fortinet Hugo theme.
 
 Each section outlines specific topics and provides examples in depth for your use. The top level links on the right side provide a _tl;dr_ style summary for the pages encompassed in that chapter.
 
@@ -32,11 +32,16 @@ Each section outlines specific topics and provides examples in depth for your us
     - [Tables]({{< relref "03format/01markdown.md#tables" >}})
     - [Block Quotes]({{< relref "03format/01markdown.md#block-quotes" >}})
     - [Links]({{< relref "03format/01markdown.md#links" >}})
-  - Shortcodes
-    - About Shortcodes
-    - Custom Shortcodes
-    - Notes, Cautions, and others
-  - Visual Aids
+  - [Shortcodes]({{< relref "03format/02shortcode.md" >}})
+    - [About Shortcodes]({{< relref "03format/02shortcode.md" >}})
+    - [Badges]({{< relref "03format/02shortcode.md#badges" >}})
+    - [Buttons]({{< relref "03format/02shortcode.md#buttons" >}})
+    - [Expand Capabilities]({{< relref "03format/02shortcode.md#expand" >}})
+    - [Icons]({{< relref "03format/02shortcode.md#icons" >}})
+    - [Mermaid]({{< relref "03format/02shortcode.md#mermaid" >}})
+    - [Notice Boxes]({{< relref "03format/02shortcode.md#notice" >}})
+    - [Tabs]({{< relref "03format/02shortcode.md#tabs" >}})
+  - [Visual Aids]({{< relref "03format/03visualaids.md" >}})
     - Alternate Text
     - Taking Good Screenshots
 - [Terminology and Jargan]({{< relref "04terminology" >}})

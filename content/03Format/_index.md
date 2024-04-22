@@ -12,7 +12,7 @@ This section covers the code and content for formatting your pages, organizing y
 ## too long; didn't read
 ###### Markdown
 - [Headers]({{< relref "01markdown.md#headers" >}})
-  - H1 headers are not needed on index pages, but should be used once per chapter at the top of the page
+  - H1 headers are not needed on index pages, but may be added to any pages containing the configuration `chapter: false`
   - H2 headers begin a new section in a page
   - H3 headers highlight action items for the user
   - H4 headers are for subsections within sections
@@ -32,3 +32,10 @@ This section covers the code and content for formatting your pages, organizing y
 - Everything to know about [links]({{< relref "01markdown.md#links" >}}) can be found here.
 
 ###### ShortCodes
+  - [Badges]({{< relref "02shortcode.md#badge" >}}) should be used to denote firmware or cloud specific information, but can be used creatively to convey any other variations in instruction as needed.
+  - [Buttons]({{< relref "02shortcode.md#badge" >}}) provide a way to guide users to additional resources in another tab. Useful for opening external resources, such as Qwik Labs or CSP Consoles.
+  - [Expand]({{< relref "02shortcode.md#expand" >}}) is a convenient way to add verbose information without clutering a page.
+  - [Icons]({{< relref "02shortcode.md#icon" >}}) are used throughout shortcode, providing simple graphics to help denote specific information.
+  - [Mermaid]({{< relref "02shortcode.md#mermaid" >}}) allows for diagrams and charts to be drawn dynamically, rather then relying on images.
+  - [Notice]({{< relref "02shortcode.md#notice" >}}) boxes provide information specific to the lab. Such as the **Result** boxes shown throughout this document.
+  

@@ -21,6 +21,8 @@ To create a header, on a new line simply place the appropriate number of `#` fol
 
 Below you will find examples of the various headers, and in the grey textbox, you will find the sample markdown to create the header demonstrated.
 
+---
+
 #### Example Headers:
 
 # Chapter 1 (Header 1)
@@ -91,6 +93,8 @@ When typing things, theres **bold text**, _italicized text_, ~~strike through~~.
 
     When typing things, theres **bold text**, _italicized text_, ~~strike through~~.
 
+---
+
 ## Horizontal Rules
 
 To further structure your content you can add horizontal rules. They create a "thematic break" between paragraph blocks. In Markdown, you can create it with three consecutive dashes `---`.
@@ -111,6 +115,8 @@ Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus.
 Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.
 {{% /notice %}}
 
+---
+
 ## Keyboard Shortcuts
 
 You can use the `<kbd>` element to style keyboard shortcuts.
@@ -123,6 +129,7 @@ Press <kbd>CTRL</kbd> <kbd>ALT</kbd> <kbd>DEL</kbd> to end your shift early.
 Press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd> to end your shift early.
 {{% /notice %}}
 
+---
 
 ## Code and CLI
 
@@ -239,6 +246,7 @@ You may use any of `-`, `*` or `+` to denote bullets for each list item but shou
 {{% /notice %}}
 
 ---
+
 #### Ordered lists
 
 You can create a list of items in which the order of items does explicitly matter.
@@ -374,6 +382,7 @@ Blockquotes can also be nested.
 {{% /notice %}}
 
 ---
+
 ## Links
 
 #### Autolink
@@ -388,6 +397,7 @@ This is a link to https://example.com.
 This is a link to https://example.com.
 {{% /notice %}}
 
+---
 
 #### Basic Link
 
@@ -401,6 +411,8 @@ You can explicitly define links in case you want to use non-absolute URLs or wan
 [Assemble](http://assemble.io)
 {{% /notice %}}
 
+---
+
 #### Link with Tooltip
 
 For even further information, you can add an additional text, displayed in a tooltip on hovering over the link.
@@ -412,6 +424,8 @@ For even further information, you can add an additional text, displayed in a too
 {{% notice style="secondary" icon="eye" title="Result" %}}
 [Upstage](https://github.com/upstage/ "Visit Upstage!")
 {{% /notice %}}
+
+---
 
 #### Link References
 
@@ -428,6 +442,8 @@ Links can be simplyfied for recurring reuse by using a reference ID to later def
 
 [somelinkID]: https://example.com "Go to example domain"
 {{% /notice %}}
+
+---
 
 #### Footnotes
 

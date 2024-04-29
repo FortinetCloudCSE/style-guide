@@ -70,6 +70,15 @@ enableEmoji = true
     # activated for this showcase to use HTML and JavaScript; decide on your own needs;
     # if in doubt, remove this line
     unsafe = true
+  
+  [markup.tableOfContents]
+    #highest level headers to include
+    startLevel = 4
+    
+    ordered = false
+
+    endLevel = 4
+
 
 [Langauges]
   landingPageName = "<i class='fas fa-home'></i> Home"

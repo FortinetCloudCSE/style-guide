@@ -43,13 +43,14 @@ the two sources differ, the ones in our Brand Style for Writing takes precedence
 These guidelines are intended only for written text left to the interpretation of the reader. When providing direct guidance for the reader to perform an action in their lab environment, these guidelines should be ignored and the action should be written **exactly** as intended to enter. The use of code blocks and **bold text** help clearly delineate actions from explanatory text.
 
 For additional help in formatting your documentation to adhere to these guidelines, [check the markdown section]({{< relref "03format/01markdown.md" >}}) of this document.
+
 {{% /notice %}}
 
-{{% expand title="**Skip to...**" %}}
+{{% expand title="**Skip to...**" %}}    
 
-{{< custom-toc >}}
+{{< custom-toc >}}    
 
-{{% /expand %}}
+{{% /expand %}}    
 
 #### Abbreviations and Acronyms
 Spell out the first occurrence of an abbreviation or acronym and use the short version for all subsequent references.

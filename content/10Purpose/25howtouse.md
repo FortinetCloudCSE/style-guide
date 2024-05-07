@@ -38,7 +38,7 @@ Each section outlines specific topics and provides examples in depth for your us
   - [Visual Aids]({{< relref "30format/35visualaids.md" >}})
     - Alternate Text
     - Taking Good Screenshots
-- [Terminology and Jargan]({{< relref "50terminology" >}})
+- [Terminology and Jargan]({{< relref "50glossary" >}})
 - [Version Control]({{< relref "60versioncontrol" >}})
 - [Appendices]({{< relref "900appendix" >}})
   - Fortinet Naming Conventions

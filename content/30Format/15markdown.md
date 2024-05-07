@@ -1,13 +1,7 @@
 ---
 title: "Markdown"
-chapter: True
-menuTitle: "Markdown"
 weight: 15
 ---
-
-# Markdown
-
-## Purpose
 
 This section is built to provide guidance on how to use markdown, and when to use specific markdown types.
 
@@ -19,7 +13,7 @@ Headers are the primary way of establishing order on the pages, and is used to d
 
 To create a header, on a new line simply place the appropriate number of `#` followed by a space, followed by the words of the header. There are 6 types of headers, designate H1 through H6. Headers 1 (H1) through 4 (H4) are used like indents in an outline. There should be 1 H1 per page, and an H2 per section. If each section is divided into subsections, H3 or H4 can be used.
 
-Below you will find examples of the various headers, and in the grey textbox, you will find the sample markdown to create the header demonstrated.
+Below you will find examples of the various headers, and in the codebox preceding it, you will find the sample markdown to create the header demonstrated.
 
 ---
 
@@ -32,9 +26,9 @@ In markdown, this header looks like this:
     # Chapter 1 (Header 1)
 
 
-H1 headers aren't generally used, because Hugo renders the titles automatically. H1 headers should only be used for the title of the page. If you find the need to use a second H1 header, consider breaking that off into a seperate page. Notice how this puts it in all capitals, centers the text, and adds a line break underneath it.
+H1 headers should only be needed in `_index.md` pages, which also include the `Chapter = True` parameter. If you find the need to use a second H1 header, consider breaking that section into a new page. Notice how this puts the header text in all capitals and centers the text.
 
-**Note:** H1 headers should only be used in chapters, as the `Title` field is rendered as the H1 header when editing the _index.md for a top level heading.
+[See the structure page for more details on headers]({{< relref "20structure/45structure.md" >}})
 
 ---
 
@@ -54,7 +48,7 @@ In markdown, you can generate this type of header like this:
 
     ### Action Items (Header 3)
 
-H3 is meant to be used to divide instruction from doing. This could be a summary of the section, a set of review questions to explore and test knowledge, or lab instructions for extra credit or exploring on their own. This should be used within the section to designate 'hands on' activities.
+H3 is meant for dividing instruction from doing work. This could be a summary of the section, a set of review questions to explore and test knowledge, or lab instructions or suggestions for exploring on their own. This should be used within the section to designate 'hands on' activities.
 
 ---
 

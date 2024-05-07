@@ -1,10 +1,7 @@
 ---
 title: "Audiences and Personas"
-chapter: True
-menuTitle: "Audiences and Personas"
 weight: 35
 ---
-# Audiences and Personas
 
 ## Audiences
 
@@ -20,15 +17,12 @@ There are a lot of different entities for which we write content. These organiza
 
 ## Personas
 
-These different audiences have disparate personas to whom we write content. Individual personas matter. Thus, Fortinet aspires to create content specific to individual personas and their unique attributes, interests, and challenges.  
-
-While it is impossible to delve into the details on all of the personas here, the
-following are some of our key customer personas:
+These different audiences have disparate personas to whom we write content. Individual personas matter. Thus, Fortinet aspires to create content specific to individual personas and their unique attributes, interests, and challenges. Since our content is primarily focused on technical aspects of the solutions we offer, we primarily focus on personas with a technical background. While it is impossible to delve into the details on all of the personas here, the following are some of our key customer personas:
   - **Security Architect**
   - **Network Architect**
   - **DevOps Engineer**
 
-We could add many others to the list such as security administrator, network engineer, security operations center (SOC) manager or director, network operations center (NOC) manager or director, etc. The same can be said about channel partners, with key personas that include everyone from the owner of a small VAR to the channel alliance executive for a solutions provider.
+We could add many others to the list such as security administrator, network engineer, security operations center (SOC) staff, network operations center (NOC) staff, etc. The same can be said about channel partners, with key personas that include everyone from the owner of a small VAR to the channel engineers of a solutions provider.
 
 ## Writing for International Audiences
 

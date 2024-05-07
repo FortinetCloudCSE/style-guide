@@ -1,11 +1,7 @@
 ---
 title: "Visual Aids"
-chapter: True
-menuTitle: "Visual Aids"
 weight: 35
 ---
-
-# Visual Aids
 
 Visual aids are a key component to conveying instruction clearly. Screenshots of UI allow users to quickly compare the directions to their lab environments, and allow users to orient themselves as they're exploring the topic being taught.
 
@@ -15,7 +11,7 @@ Visual aids are a key component to conveying instruction clearly. Screenshots of
 
 For loadability and readability, the following guidelines should be followed:
   - [x] Images should be no more then 200kb in size.
-  - [x] Images should be no more than 650px wide.
+  - [x] Images should be no more than 800px wide.
   - [x] Images should **always** contain alt text.
 
 Following these guidelines help ensure that images are viewable across a wide variety of devices, and help ensure excessive bandwidth requirements during training aren't neccesary. 
@@ -29,19 +25,19 @@ Depending on the settings of your computer, you may be capturing screenshots in 
 ---
 
 {{% notice style="note" title="Image Storage" %}}
-There are a few options when storing images (find more in depth discussion in the default repo). In this repo, the images have been stored in a seperate images directory under the /content directory.
+There are a few options when storing images (find more in depth discussion in the default repo). In this repo, the images have been stored in a seperate `images` directory under the `/content` directory.
 
-- Option 1: use externally fully qualified absolutely path (this can be a pain)
-- Option 2: if you have a directory with all your images.... 
+- **Option 1:** use externally fully qualified absolutely path (this can be a pain)
+- **Option 2:** if you have a directory with all your images.... 
   - put it in "/content/images"
   - MD usage(from a chapter page in "content/chapter01") 
     ```
         ![Magic](../images/magic.gif)
     ```
-- Option 3:  I find it easier to organize images with the pages they go with (this is how the template repo is setup
+- **Option 3:**  Some find it easier to organize images with the pages they go with (this is how the template repo is setup)
   - put images in the chapter directory
-    - e.g. images in "/content/chapter1/"
-      - MD Usage:
+  - e.g. images in "/content/chapter1/"
+    - Markdown usage:
         ```
             ![Magic](magic.gif)
         ```
@@ -52,13 +48,13 @@ There are a few options when storing images (find more in depth discussion in th
 
 #### About CLI Capture
 
-Whenever possible, it is desirable to capture the CLI output in [fenced code blocks]({{< relref "01markdown.md#fenced-code-block" >}}). By avoiding screenshots of text information, we reduce load times and improve readability across all devices. The primary exception to this would be when graphical information is shown via CLI, which may not format correctly if put into a fenced code block. If capturing screenshots of your CLI output is required, one should ensure a standard CLI window size of 80 characters wide by 24 lines tall is used to capture this information. Please also ensure your images adhere to the above guidance of 800px wide, and an image size of under 200kb.
+Whenever possible, it is desirable to capture the CLI output in [fenced code blocks]({{< relref "15markdown.md#fenced-code-block" >}}). By avoiding screenshots of text information, we reduce load times and improve readability across all devices. The primary exception to this would be when graphical information is shown via CLI, which may not format correctly if put into a fenced code block. If capturing screenshots of your CLI output is required, one should ensure a standard CLI window size of 80 characters wide by 24 lines tall is used to capture this information. Please also ensure your images adhere to the above guidance of 800px wide, and an image size of under 200kb.
 
 ---
 
 ## Embedded Images
 
-Images have a similar syntax to [links]({{< relref "01markdown.md#links" >}}) but include a preceding exclamation mark. Like [links]({{< relref "01markdown.md#links" >}}), images can also be given a tooltip. Keep reading for examples of how to add both.
+Images have a similar syntax to [links]({{< relref "15markdown.md#links" >}}) but include a preceding exclamation mark. Like [links]({{< relref "15markdown.md#links" >}}), images can also be given a tooltip. Keep reading for examples of how to add both.
 
 #### Alt Text
 Alt text is contained in the square `[]` brackets, and every effort should be made to include alternate text. [Good guidelines](https://www.w3.org/WAI/tutorials/images/decision-tree/) on when to include or omit alt text, and what content should be there is provided by W3C.

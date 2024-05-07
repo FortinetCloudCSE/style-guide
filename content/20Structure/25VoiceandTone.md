@@ -1,11 +1,7 @@
 ---
 title: "Voice and Tone"
-chapter: True
-menuTitle: "Voice and Tone"
 weight: 25
 ---
-
-# Voice and Tone
 
 The voice and tone of the language we use when writing content plays an important role in conveying brand personality.
 
@@ -26,6 +22,7 @@ All of this means we write copy that is:
   - **Educational** - Network security professionals seek content that provides them with information, helping them solve problems, overcome challenges, and answer questions. While some regional-specific details and examples are important and necessary depending on the content asset, avoid including U.S.-centric examples only whenever possible.
   - **Knowledgeable** - When we write something, we research the subject to gain a comprehensive understanding of the issues and ensure we have corroborating data to back up any claims that we make.
   - **Positive** - Our glass is half full rather than half empty. Rather than dwelling on what can go wrong, we are focused on providing answers and solutions to challenges and problems.
+  - **Avoid gatekeeping** - Avoid language that is exclusionary or encourages “gatekeeping.” We write for an international audience of developers from a wide range of backgrounds, races, ethnicities, cultures, and experience levels. Use the [Open Gates checklist](https://opengates.dev/checklist/) to help ensure you're not excluding others.
 
 ## Tone
 

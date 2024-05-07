@@ -1,6 +1,5 @@
 ---
 title: "FAQ"
-chapter: True
 menuTitle: "Frequently Asked Questions"
 weight: 35
 ---

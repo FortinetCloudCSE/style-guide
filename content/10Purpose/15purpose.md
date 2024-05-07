@@ -1,11 +1,7 @@
 ---
 title: "Purpose"
-chapter: True
-menuTitle: "Purpose"
 weight: 15
 ---
-
-## Purpose
 
 ## What is this?
 
@@ -18,7 +14,7 @@ This guide is meant to provide guidance and clarity for authors developing mater
 - Facilitating Collaboration
 - Integrating with Brand Voice and Tone Across Fortinet Communications
 
-The purpose of this style guide is multifaceted, encompassing a range of objectives aimed at enhancing the quality, accessibility, and readability of technical documentation. By laying down the principles, standards, and best practices for writing and presenting technical information, this guide seeks to empower writers, editors, and contributors to craft content that not only informs but also engages and inspires its audience. 
+This guide is by nature both a work in progress and an opinionated document, based on the growing experience of the CSE Organization.  Its recommendations are subject to change, and are written specifically for educational content with a broad range of readers and end-users in mind
 
 ---
 

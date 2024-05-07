@@ -1,11 +1,7 @@
 ---
 title: "Grammar Mechanics"
-chapter: True
-menuTitle: "Grammar Mechanics"
 weight: 15
 ---
-
-# Grammar Mechanics
 
 It is important that we adhere to a clearly defined set of
 grammatical and mechanical rules in our writing. This ensures
@@ -42,7 +38,7 @@ the two sources differ, the ones in our Brand Style for Writing takes precedence
 {{% notice note %}}
 These guidelines are intended only for written text left to the interpretation of the reader. When providing direct guidance for the reader to perform an action in their lab environment, these guidelines should be ignored and the action should be written **exactly** as intended to enter. The use of code blocks and **bold text** help clearly delineate actions from explanatory text.
 
-For additional help in formatting your documentation to adhere to these guidelines, [check the markdown section]({{< relref "03format/01markdown.md" >}}) of this document.
+For additional help in formatting your documentation to adhere to these guidelines, [check the markdown section]({{< relref "30format/15markdown.md" >}}) of this document.
 
 {{% /notice %}}
 
@@ -164,34 +160,32 @@ When referring to a specific file, the file name should be all lowercase unless 
 
 #### Footnotes/Endnotes
 Use endnotes unless there is a valid reason to use footnotes. The footnote/endnote number goes on the outside of the punctuation mark and not on the inside.     
-{{% icon icon="check-circle" %}} Yes: Ransomware attacks grew over 205% last year.4     
-{{% icon icon="times-circle" %}} No: Ransomware attacks grew over 205% last year4.
+{{% icon icon="check-circle" %}} Yes: Ransomware attacks grew over 205% last year.[^4]     
+{{% icon icon="times-circle" %}} No: Ransomware attacks grew over 205% last year[^4].
+
+[^4]: Patrick E. Spencer, “The State of the Female CISO, and What Can Be Done About It,” The CISO Collective, September 6, 2018.
 
 Footnotes and endnotes are only used in long-form, pillar content such as white papers, eBooks, solution briefs, etc. Hyperlinks are used in blog posts and online articles (e.g.,
-TheCISOCollective.com).
+TheCISOCollective.com). See the [footnotes section]({{< relref "30format/15markdown.md#footnotes" >}}) of the markdown page for implementation details.
 
 ###### Footnote/endnote examples:
-When there is an author’s name:    
-Patrick E. Spencer, “The State of the Female CISO, and What
-Can Be Done About It,” The CISO Collective, September 6,
-2018.
+**When there is an author’s name:**    
+Patrick E. Spencer, “The State of the Female CISO, and What Can Be Done About It,” The CISO Collective, September 6, 2018.
 
-When there is not an author’s name:    
-“Over half of consumers have decided against an online
-purchase due to privacy concerns,” KPMG, November 3, 2016.
-When there is not a published date:
-“Beneath the surface of a cyberattack,” Deloitte, accessed
-September 16, 2018.
+**When there is not an author’s name:**    
+“Over half of consumers have decided against an online purchase due to privacy concerns,” KPMG, November 3, 2016.
 
-When the reference comes from a referred publication published quarterly, bi-monthly, etc.:    
-Doug Jones, “How to Motivate Your Employees,” Harvard
-Business Review 91:1 (January-February 2018): 55-62.
+**When there is not a published date:**
+“Beneath the surface of a cyberattack,” Deloitte, accessed September 16, 2018.
 
-When there are two authors:    
+**When the reference comes from a referred publication published quarterly, bi-monthly, etc.:**     
+Doug Jones, “How to Motivate Your Employees,” Harvard Business Review 91:1 (January-February 2018): 55-62.
+
+**When there are two authors:**    
 Doug Jones and Mary Landry, “Where to Find Cybersecurity
 Professionals,” SANS Institute, January 21, 2017.
 
-When there are three or more authors:    
+**When there are three or more authors:**    
 Doug Jones, et al., “Where to Find Cybersecurity Professionals,”
 SANS Institute, January 21, 2017.
 
@@ -282,4 +276,4 @@ Short words with less than four letters are lowercase in titles unless they are 
 - Cybersecurity Requirement,” Harvard Business Review 38:2 (2012): 65-81.
 
 #### URLs and Websites
-Capitalize the names of websites and web publications. Don’t italicize. Spell out URLs but leave off http://www and https://www. Or use [basic links]({{< relref "03format/01markdown.md#basic-link" >}}).
+Capitalize the names of websites and web publications. Don’t italicize. Spell out URLs but leave off http://www and https://www. Or use [basic links]({{< relref "30format/15markdown.md#basic-link" >}}).

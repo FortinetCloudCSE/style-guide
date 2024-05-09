@@ -1,9 +1,18 @@
 ---
-title: "Structure, Grammar, Voice, and Tone "
+title: "Technical Writing"
 chapter: True
-menuTitle: "II: Structure, Voice, Tone"
+menuTitle: "II: Technical Writing"
 weight: 20
 ---
+
+# Technical Writing
+
+This section is meant to provide guidelines around how to write, reference, and explain the technical pieces. These again are only **guidelines** and are meant to provide clarity when there is none. If there is something written here that contradicts other advice or references elsewhere, this document can and should be modified. 
+
+- The **grammar** section covers the grammatical nuance of writing. 
+- **Voice and tone** explains how to speak as Fortinet, through your written words. 
+- **Audience and Personas** helps to find the audience you're writing for. 
+- The **structure** section then outlines best practices in storing your files within your repository, how to structure your guide, and how to best build out your individual chapters for effective learning.
 
 ## too long; didn’t read (tl;dr)
 

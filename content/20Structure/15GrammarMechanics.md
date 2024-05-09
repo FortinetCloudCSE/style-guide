@@ -30,6 +30,10 @@ Words like “was” and “by” may be an indication you’ve slipped
 into passive voice.
 7. **Avoid slang and jargon.** Write in plain English.
 
+{{% notice tip %}}
+Looking for guidance on specific words, hyphenations, or usage? [Check the glossary for a comprehensive list.]({{< relref "50glossary/_index.md" >}})
+{{% /notice %}}
+
 ## Guidelines
 
 Unless indicated otherwise, we follow the Associated Press Stylebook (AP Style). For anything not covered in our Brand Style for Writing section, please refer to it. When rules between
@@ -41,12 +45,6 @@ These guidelines are intended only for written text left to the interpretation o
 For additional help in formatting your documentation to adhere to these guidelines, [check the markdown section]({{< relref "30format/15markdown.md" >}}) of this document.
 
 {{% /notice %}}
-
-{{% expand title="**Skip to...**" %}}    
-
-{{< custom-toc >}}    
-
-{{% /expand %}}    
 
 #### Abbreviations and Acronyms
 Spell out the first occurrence of an abbreviation or acronym and use the short version for all subsequent references.
@@ -266,6 +264,16 @@ Use one space between sentences and not two.
 #### States, Cities, Countries
 Spell out all city and state names. Don’t abbreviate them. AP Style stipulates that cities must be accompanied by their state with the **exception** of the following:
 > Atlanta, Baltimore, Boston, Chicago, Cincinnati, Cleveland, Dallas, Denver, Detroit, Honolulu, Houston, Indianapolis, Las Vegas, Los Angeles, Miami, Milwaukee, Minneapolis, New Orleans, New York, Oklahoma City, Philadelphia, Phoenix, Pittsburgh, St. Louis, Salt Lake City, San Antonio, San Francisco, Seattle, Washington
+
+## Syntax Descriptions
+
+Use code blocks for literals (parts of the language, values, and so on), italics for placeholder names, and regular text for the brackets that enclose something that’s optional. Pay close attention to punctuation.
+
+`Read` ([_file,_] _var_)
+
+Use camelcase to connect words that act as a single placeholder name (sourceFile).
+
+Be consistent when naming placeholders; for example, don’t alternate between commands and commandList.
 
 #### Time
 Use numerals and a.m. or p.m. with a space in between. Use an en dash for ranges without a space between it and the adjacent words on either side. Abbreviate time zones in the U.S. For international time zones, spell them out.

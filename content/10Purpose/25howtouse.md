@@ -36,13 +36,7 @@ Each section outlines specific topics and provides examples in depth for your us
     - [Notice Boxes]({{< relref "30format/25shortcode.md#notice" >}})
     - [Tabs]({{< relref "30format/25shortcode.md#tabs" >}})
   - [Visual Aids]({{< relref "30format/35visualaids.md" >}})
-    - Alternate Text
-    - Taking Good Screenshots
-- [Terminology and Jargan]({{< relref "50glossary" >}})
-- [Version Control]({{< relref "60versioncontrol" >}})
-- [Appendices]({{< relref "900appendix" >}})
-  - Fortinet Naming Conventions
-  - Glossary of Security Terms
-  - Glossary of Cloud Terms
-  - Additional Resources
+- [Glossary]({{< relref "50glossary" >}})
+- [Appendix A - External References]({{< relref "900appendix" >}})
+- [Contributors]({{< relref "950contributors" >}})
   

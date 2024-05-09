@@ -1,20 +1,23 @@
 ---
 title: "Style Guide for CSE"
-menuTitle: "Style Guide v0.1"
+chapter: True
 weight: 1
-archetype: home
 ---
 
-### Welcome!
+# Welcome!
 
 
-This site will explain how to create new content that fits the existing theme, and provides guidance on how to best present the information in a consistent fashion.
+This site will explain how to format and create new content that is consistent with the existing body of work. It is meant to provide guidance on how to write, structure, and notate your content in a repeatable fashion. Adhering to the style guide helps users of our content learn more efficiently.
 
-### Learning Objectives
-- Setup UserRepo on your system & Build container with Hugo & CentralRepo
-- Learn to work in Hugo to create your content to display proper information flow for your TEC Workshop/demo/training
-- Publish your Hugo site to GitHub pages via a CI/CD model 
- 
-### Hugo and Fortinet TECWorkshops - Visually
-- The purpose of this workflow is to simplify creation of Fortinet TECWorkshop guides while providing an example CI/CD development environment with maximum re-usability 
-- Here's a visual representation of our process which will be fully explained in each chapter
+## Prerequisites
+
+There are few basic prerequisites to using this style guide. The reader is:
+1. planning or has a desire to write new guides in this format.
+2. loosely familiar with hugo and the relearn theme.
+3. ready to begin developing content, has a topic and a repo to store their work.
+
+## Learning Objectives
+- Understand what this style guide is, and isn't useful for
+- Understand how to talk about technology in a consistent manner
+- Understand the structure for effective teaching
+- Function as a reference guide to look back on when encountering new situations.

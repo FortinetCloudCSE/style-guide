@@ -27,7 +27,7 @@ content
 ## Content Structure
 
 Content should be broken into chapters, and contain the following at _minimum_, in this order.    
-1. Overview
+1. Preface
 2. Content ([Chapters]({{< relref "#chapters" >}}), split into [sections]({{< relref "#sections">}}))
 3. (optional) Glossary
 4. (optional) Appendices

@@ -1,11 +1,11 @@
 ---
-title: "Format and Structure"
+title: "Formatting"
 chapter: true
-menuTitle: "III: Format and Structure"
+menuTitle: "III: Formatting"
 weight: 30
 ---
 
-## Purpose
+# Formatting
 
 This section covers the code and content for formatting your pages, organizing your data, and using markdown to convey your options to users clearly.
 
@@ -39,3 +39,11 @@ This section covers the code and content for formatting your pages, organizing y
   - [Mermaid]({{< relref "25shortcode.md#mermaid" >}}) allows for diagrams and charts to be drawn dynamically, rather then relying on images.
   - [Notice]({{< relref "25shortcode.md#notice" >}}) boxes provide information specific to the lab. Such as the **Result** boxes shown throughout this document.
   
+###### Visual Aids
+  - Images should be:    
+    - no more than 200kb in size
+    - no more than 800 pixels wide
+    - **always** contain alt text
+  - Capturing CLI
+  - Embedding Images
+  - Classes and Image Effects

@@ -1,7 +1,7 @@
-# Fortinet Template Repo for TECWorkshops
+# Fortinet Style Guide for TECWorkshops
 
 ## Prereqs
-  - Docker
+  - None!
  
 ## How to use this repo:
-https://fortinetcloudcse.github.io/UserRepo/index.html
+https://fortinetcloudcse.github.io/style-guide/index.html

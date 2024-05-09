@@ -1,26 +1,23 @@
 ---
-title: "Fortinet TECWorkshop Template - MVP1"
-menuTitle: "TECWorkshop Template"
+title: "Style Guide for CSE"
+chapter: True
 weight: 1
-archetype: home
 ---
 
-### Welcome!
+# Welcome!
 
 
-This site will explain how to use the [Hugo Web Framework]("https://gohugo.io/") & the ["reLearn" Theme]("https://mcshelby.github.io/hugo-theme-relearn/index.html") to effectively organize & deliver Fortinet TEC Workshops & Product demos in a consistent, simple, and visually appealing format.
+This site will explain how to format and create new content that is consistent with the existing body of work. It is meant to provide guidance on how to write, structure, and notate your content in a repeatable fashion. Adhering to the style guide helps users of our content learn more efficiently.
 
-The beauty of this framework lies in its simplicity.  Within approx 30 mins, anybody can have a site up and running.  Content is created via Markdown files, and the workshop guide layout is simply a directory structure.
+## Prerequisites
 
-Follow along on this simple tutorial to get up and running with a Hugo formatted site for your TEC Workshop/training/demo content today!
+There are few basic prerequisites to using this style guide. The reader is:
+1. planning or has a desire to write new guides in this format.
+2. loosely familiar with hugo and the relearn theme.
+3. ready to begin developing content, has a topic and a repo to store their work.
 
-### Learning Objectives
-- Setup UserRepo on your system & Build container with Hugo & CentralRepo
-- Learn to work in Hugo to create your content to display proper information flow for your TEC Workshop/demo/training
-- Publish your Hugo site to GitHub pages via a CI/CD model 
- 
-### Hugo and Fortinet TECWorkshops - Visually
-- The purpose of this workflow is to simplify creation of Fortinet TECWorkshop guides while providing an example CI/CD development environment with maximum re-usability 
-- Here's a visual representation of our process which will be fully explained in each chapter
-
-{{< FTNThugoFlow >}}
+## Learning Objectives
+- Understand what this style guide is, and isn't useful for
+- Understand how to talk about technology in a consistent manner
+- Understand the structure for effective teaching
+- Function as a reference guide to look back on when encountering new situations.

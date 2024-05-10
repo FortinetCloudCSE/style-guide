@@ -5,7 +5,7 @@ menuTitle: "App. A: External References"
 weight: 900
 ---
 
-# Appendix A
+## Appendix A
 
 This appendix is meant to contain links to other content that may be useful in additional sites.
 
@@ -17,9 +17,9 @@ This appendix is meant to contain links to other content that may be useful in a
 ## Fortinet
 
 - [Fortinet Brand Guidelines](https://www.exclusive-networks.com/hk/wp-content/uploads/sites/4/2021/02/ASIA-VM-Fortinet-Brand-Guidelines.pdf)
-- [Fortinet Public/Private Cloud Dococuments](https://docs.fortinet.com/cloud-solutions)
+- [Fortinet Public/Private Cloud Documents](https://docs.fortinet.com/cloud-solutions)
 - [Fortinet Press Kit](https://www.fortinet.com/corporate/about-us/newsroom/press-kit)
-- [Fortinet Registered Trademakrs and Guidelines](https://www.fortinet.com/corporate/about-us/contact-us/fortinet-trademark-guidelines)
+- [Fortinet Registered Trademarks and Guidelines](https://www.fortinet.com/corporate/about-us/contact-us/fortinet-trademark-guidelines)
 
 ## Google
 

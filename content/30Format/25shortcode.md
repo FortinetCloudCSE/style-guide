@@ -9,7 +9,7 @@ The `badge` shortcode displays little markers in your text with adjustable color
 
 Full parameters for badges can be [found here](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/badge/index.html#parameter).
 
-###### Example badges:
+### Example badges:
 
 ````go
 {{%/* badge %}}Important{{% /badge */%}}
@@ -66,10 +66,11 @@ The expand option lets you add additional detail, text, and images while keeping
 
 {{% badge icon="eye" %}}Result:{{% /badge %}}
 {{% expand title="**Detailed Steps...**" %}}
+
 - **1.1:** In your AWS account, navigate to the **EC2 Console** and go to the **Instances page** (menu on the left).
 - **1.2:** Find the **ExPub-Instance1** instance, and copy the **Public IP address**.
 - **1.3:** In your command prompt or terminal, ping the **public IPv4 address** of the instance.
-   - This **SHOULD NOT** work at this point.
+  - This **SHOULD NOT** work at this point.
 {{% /expand %}}
 
 **Author note:** _For some reason the notice box breaks when wrapped around an expand field - apologies for the inconsistency_
@@ -82,7 +83,8 @@ The `icon` shortcode displays icons using the [Font Awesome](https://fontawesome
 
 Feel free to browse [Font Awesomes library](https://fontawesome.com/v5/search?m=free) and use what you need. Notice that the **free** filter is enabled, as only the free icons are available by default. Once on the Font Awesome page for a specific icon, for example the page for the [heart](https://fontawesome.com/v5/icons/heart?s=solid), copy the icon name and paste into the Markdown content.
 
-###### Example
+### Example
+
 ````go
 {{%/* icon exclamation-triangle */%}}
 {{%/* icon angle-double-up */%}}
@@ -100,9 +102,9 @@ Mermaid is scripting language that lets you create simple diagrams and charts.
 
 _Whenever possible_, a mermaid diagram is preferrable to a screenshot of one. However, its understood that Mermaid could be considered an advanced topic, and Mermaid diagrams are never required.
 
-[Full documentation of Mermaid can be found here.](http://mermaid.js.org/intro/getting-started.html) 
+[Full documentation of Mermaid can be found here.](http://mermaid.js.org/intro/getting-started.html)
 
-###### Example
+### Example
 
 ```go
 {{</* mermaid align="center" zoom="true" */>}}
@@ -137,7 +139,7 @@ This is the notice box
 
 ---
 
-###### Other Default Boxes:
+### Other Default Boxes:
 
 There's a handful of notice boxes pre-defined within the theme and available for use with minimal code. However there are [extensive customizations available](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/notice/index.html).
 

@@ -10,17 +10,18 @@ Visual aids are a key component to conveying instruction clearly. Screenshots of
 ## Image Guidelines
 
 For loadability and readability, the following guidelines should be followed:
+
   - [x] Images should be no more then 200kb in size.
   - [x] Images should be no more than 800px wide.
   - [x] Images should **always** contain alt text.
 
-Following these guidelines help ensure that images are viewable across a wide variety of devices, and help ensure excessive bandwidth requirements during training aren't neccesary. 
+Following these guidelines help ensure that images are viewable across a wide variety of devices, and help ensure excessive bandwidth requirements during training aren't necessary.
 
 ---
 
-#### JPG or PNG?
+### JPG or PNG?
 
-Depending on the settings of your computer, you may be capturing screenshots in JPG or PNG format. PNG offers the ability to zoom into the image with much more detail and clarity, which is useful for diagrams and other images containing dense amounts of information. When capturing UI elements, JPG will often convey the same information, while taking less resources to load and process. 
+Depending on the settings of your computer, you may be capturing screenshots in JPG or PNG format. PNG offers the ability to zoom into the image with much more detail and clarity, which is useful for diagrams and other images containing dense amounts of information. When capturing UI elements, JPG will often convey the same information, while taking less resources to load and process.
 
 ---
 
@@ -28,9 +29,9 @@ Depending on the settings of your computer, you may be capturing screenshots in 
 There are a few options when storing images (find more in depth discussion in the default repo). In this repo, the images have been stored in a seperate `images` directory under the `/content` directory.
 
 - **Option 1:** use externally fully qualified absolutely path (this can be a pain)
-- **Option 2:** if you have a directory with all your images.... 
+- **Option 2:** if you have a directory with all your images....
   - put it in "/content/images"
-  - MD usage(from a chapter page in "content/chapter01") 
+  - MD usage(from a chapter page in "content/chapter01")
     ```
         ![Magic](../images/magic.gif)
     ```
@@ -57,6 +58,7 @@ Whenever possible, it is desirable to capture the CLI output in [fenced code blo
 Images have a similar syntax to [links]({{< relref "15markdown.md#links" >}}) but include a preceding exclamation mark. Like [links]({{< relref "15markdown.md#links" >}}), images can also be given a tooltip. Keep reading for examples of how to add both.
 
 #### Alt Text
+
 Alt text is contained in the square `[]` brackets, and every effort should be made to include alternate text. [Good guidelines](https://www.w3.org/WAI/tutorials/images/decision-tree/) on when to include or omit alt text, and what content should be there is provided by W3C.
 
 ---
@@ -71,7 +73,8 @@ Several classes are available, which can be appended to images to manipulate the
 | `height` | defines the height of the image when displayed. Similar to width, can be defined by `px` or in relative height with **`vh`**  |
 | `classes` | Defines alignment of the image. Can use `left` and `right` for page alignemnt, and `inline` for adding multiple images to a single line |
 
-###### Image Examples
+#### Image Examples
+
 ````md
 Alt Text and Tooltip implemented
 ![This is alt text](../images/spocktocat.png "This is a tooltip")
@@ -90,7 +93,8 @@ Adjust your browser height/width to see how these settings affect images differe
 ![20 vh setting](../images/trekkie.jpg?width=20vh "20% viewing height")
 {{% /notice %}}
 
-###### Class Definitions:
+#### Class Definitions:
+
 ````md
 Left Alignment:   
 
@@ -118,4 +122,3 @@ Inline Alignment:
 
 ![Inline example 1](../images/droctocat.png?classes=inline&width=10vw  "Inline example 1") ![Inline example 2](../images/trekkie.jpg?classes=inline&width=10vw  "Inline example 2")
 {{% /notice %}}
-

@@ -19,7 +19,7 @@ Host names should be generic, capture the meaning of the device, and deviate fro
 
 ## IPv4 addresses
 
-Use addresses from and RFC1918 space that is in a seperate class from the lab space you are working in. For example, if leveraging 172.16.0.0/16 in the lab environment, use 10.0.0.0/8 or 192.168.0.0/16 space when showing examples outside the lab environment.
+Use addresses from and RFC1918 space that is in a separate class from the lab space you are working in. For example, if leveraging 172.16.0.0/16 in the lab environment, use 10.0.0.0/8 or 192.168.0.0/16 space when showing examples outside the lab environment.
 
 ## IPv6 addresses
 
@@ -28,4 +28,3 @@ IPv6 has a dedicated prefix to use in documentation efforts. This is the `2001:0
 ## Users
 
 For example users, use free-software mascots, such as Tux (Linux Kernel), Wilber (The GIMP), Geeko (SUSE), Foxkeh (Firefox), Konqi (KDE), or Duke (Java).
-

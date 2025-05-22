@@ -1,7 +1,1 @@
-# Fortinet Style Guide for TECWorkshops
-
-## Prereqs
-  - None!
- 
-## How to use this repo:
-https://fortinetcloudcse.github.io/style-guide/index.html
+<h1>style-guide</h1><h3>To view the workshop, please go here: <a href="https://fortinetcloudcse.github.io/style-guide/">style-guide</a></h3><hr><h3>For more information on creating these workshops, please go here: <a href="https://fortinetcloudcse.github.io/UserRepo/">FortinetCloudCSE User Repo</a></h3>

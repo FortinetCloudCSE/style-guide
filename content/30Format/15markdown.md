@@ -17,14 +17,13 @@ Below you will find examples of the various headers, and in the codebox precedin
 
 ---
 
-#### Example Headers:
+### Example Headers:
 
 # Chapter 1 (Header 1)
 
 In markdown, this header looks like this:
 
     # Chapter 1 (Header 1)
-
 
 H1 headers should only be needed in `_index.md` pages, which also include the `Chapter = True` parameter. If you find the need to use a second H1 header, consider breaking that section into a new page. Notice how this puts the header text in all capitals and centers the text.
 
@@ -38,12 +37,12 @@ In markdown, you can generate this type of header like this:
 
     ## Chapter 1 Section 1 (Header 2)
 
-
 H2 headers should be used to signal the beginning of a section. A section should be useful on its own, and can be linked directly from other sources. Notice that we lose all capitalization, the size is smaller, and there is no line break underneath it. Each chapter should contain a few sections at minimum.
 
 ---
 
 ### Action Items (Header 3)
+
 In markdown, you can generate this type of header like this:
 
     ### Action Items (Header 3)
@@ -65,6 +64,7 @@ Lastly, H4 headers are for use as a subsection title. These can be used to break
 There are 2 other supported headers, H5 and H6.
 
 ##### H5 Headers:
+
 H5 headers currently don't have a designated use, but is provided to help break up and logically organize dense sections of information as needed. They are coded with 5 `#` in a row, like this:
 
     ##### H5 Headers:
@@ -210,14 +210,16 @@ You can also add a language specifier directly after the opening fence, ` ```js 
 ---
 
 ## Lists
+
 You can write a list of items in which the order of the items does not explicitly matter.
 
 It is possible to nest lists by indenting an item for the next sublevel.
 
 You may use any of `-`, `*` or `+` to denote bullets for each list item but should not switch between those symbols inside one whole list.
 
-#### Unordered List
-```
+### Unordered List
+
+```text
 - Lorem ipsum dolor sit amet
 - Consectetur adipiscing elit
   - Vestibulum laoreet porttitor sem
@@ -248,6 +250,7 @@ You can create a list of items in which the order of items does explicitly matte
 It is possible to nest lists by indenting an item for the next sublevel.
 
 Markdown will automatically number each of your items consecutively. This means, the order number you are providing is irrelevant.
+
 ```
 1. Lorem ipsum dolor sit amet
 3. Consectetur adipiscing elit
@@ -285,6 +288,7 @@ You can add task lists resulting in checked or unchecked non-clickable items
 ```
 
 {{% notice style="secondary" icon="eye" title="Result" %}}
+
 - [x] Basic Test
 - [ ] More Tests
   - [x] View
@@ -355,6 +359,7 @@ You can create tables by adding pipes as dividers between each cell, and by addi
 ---
 
 ## Block Quotes
+
 For quoting blocks of content from another source within your document add `>` before any text you want to quote.
 
 Blockquotes can also be nested.
@@ -379,7 +384,7 @@ Blockquotes can also be nested.
 
 ## Links
 
-#### Autolink
+### Autolink
 
 Absolute URLs will automatically be converted into a link.
 
@@ -393,7 +398,7 @@ This is a link to https://example.com.
 
 ---
 
-#### Basic Link
+### Basic Link
 
 You can explicitly define links in case you want to use non-absolute URLs or want to give different text.
 
@@ -407,7 +412,7 @@ You can explicitly define links in case you want to use non-absolute URLs or wan
 
 ---
 
-#### Link with Tooltip
+### Link with Tooltip
 
 For even further information, you can add an additional text, displayed in a tooltip on hovering over the link.
 
@@ -421,7 +426,7 @@ For even further information, you can add an additional text, displayed in a too
 
 ---
 
-#### Link References
+### Link References
 
 Links can be simplyfied for recurring reuse by using a reference ID to later define the URL location. This simplyfies writing if you want to use a link more than once in a document.
 
@@ -439,7 +444,7 @@ Links can be simplyfied for recurring reuse by using a reference ID to later def
 
 ---
 
-#### Footnotes
+### Footnotes
 
 Footnotes work mostly like reference-style links. A footnote is made of two things, a marker in the text that will become a superscript number and a footnote definition that will be placed in a list of footnotes.
 
@@ -472,4 +477,3 @@ That's some more text with a footnote.[^someid]
 
     Blue light glows blue.
 {{% /notice %}}
-

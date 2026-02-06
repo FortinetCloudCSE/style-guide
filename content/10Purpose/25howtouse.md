@@ -39,4 +39,3 @@ Each section outlines specific topics and provides examples in depth for your us
 - [Glossary]({{< relref "50glossary" >}})
 - [Appendix A - External References]({{< relref "900appendix" >}})
 - [Contributors]({{< relref "950contributors" >}})
-  
